@@ -1,0 +1,86 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #00695c;
+} 
+
+.navigation {
+    background-color:#009688;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    min-height: 400px;
+}
+
+#logo1{
+    height:60px;
+}
+
+h2 { 
+    text-align:center;
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+button{
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+}
+
+footer{
+    background-color: #80cbc4;
+    color:white;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+  }
+ a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:visited {
+    color: white;
+    font-size:large;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:hover {
+    color: rgb(89, 155, 216);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+a:active {
+    color: rgb(255, 0, 170);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+#show{
+  background-color:#80cbc4;
+  height: 100%; 
+  width: 100%;
+}
+.flex{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#order{
+    height: 100%; 
+    width: 100%;
+}
